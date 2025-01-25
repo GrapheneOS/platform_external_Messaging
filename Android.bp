@@ -4,16 +4,4 @@ android_app_import {
 
     apk: "prebuilt/Messaging.apk",
     preprocessed: true,
-
-    required: [
-        "whitelist_com.android.messaging.xml"
-    ]
-}
-
-prebuilt_etc {
-    name: "whitelist_com.android.messaging.xml",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "whitelist_com.android.messaging.xml",
-    filename_from_src: true,
 }
