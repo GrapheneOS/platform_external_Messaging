@@ -2,7 +2,7 @@ android_app_import {
     name: "Messaging",
     product_specific: true,
 
-    apk: "prebuilt/Messaging.apk",
+    apk: "prebuilt/app-release.apk",
     preprocessed: true,
 
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
